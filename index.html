@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  
+  <title>Delícias Fit | Marmitas Saudáveis Feitas com Afeto</title>
+  <meta name="description" content="Marmitas saudáveis e balanceadas, prontas em 3 minutos. Veja o cardápio e peça pelo WhatsApp.">
+  <link rel="canonical" href="https://deliciasfit.com.br/">
+  <meta name="theme-color" content="#FAF7FD">
+
+  <!-- Open Graph (WhatsApp, Facebook, Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Delícias Fit">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://deliciasfit.com.br/">
+  <meta property="og:title" content="Delícias Fit 💜 Marmitas Saudáveis">
+  <meta property="og:description" content="Cardápio do dia e pedido direto pelo WhatsApp.">
+  <meta property="og:image" content="https://deliciasfit.com.br/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Marmitas saudáveis Delícias Fit">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Ícones -->
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💜</text></svg>" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Dados Estruturados Schema.org para Estabelecimento Gastronômico -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Delícias Fit",
+    "url": "https://deliciasfit.com.br/",
+    "image": "https://deliciasfit.com.br/og-cover.jpg",
+    "telephone": "+5511999999999",
+    "servesCuisine": "Comida saudável",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "13:00" }
+    ]
+  }
+  </script>
+
+  <!-- Preload da Imagem do Hero (LCP) com srcset e sizes responsivos -->
+  <link 
+    rel="preload" 
+    as="image" 
+    fetchpriority="high"
+    imagesrcset="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=720&q=70 720w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=70 960w"
+    imagesizes="(min-width: 640px) 486px, calc(100vw - 74px)"
+  >
+
+  <!-- Google Fonts: Conexão Otimizada e Carregamento Não-Bloqueante -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  </noscript>
+
+  <!-- Estilos e Fallbacks de Fontes Calculados (Zero CLS) -->
+  <style id="compiled-tailwind-css">
+    *,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Plus Jakarta Sans,Jakarta Fallback,system-ui,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-x-0{left:0;right:0}.bottom-0{bottom:0}.bottom-3{bottom:.75rem}.left-3{left:.75rem}.top-3{top:.75rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-0\.5{margin-bottom:.125rem}.mb-1{margin-bottom:.25rem}.mb-2\.5{margin-bottom:.625rem}.mb-4{margin-bottom:1rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-auto{margin-top:auto}.line-clamp-1{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.aspect-\[16\/10\]{aspect-ratio:16/10}.h-10{height:2.5rem}.h-2\.5{height:.625rem}.h-24{height:6rem}.h-3\.5{height:.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-full{height:100%}.min-h-12{min-height:3rem}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-2\.5{width:.625rem}.w-24{width:6rem}.w-3\.5{width:.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-full{width:100%}.min-w-0{min-width:0}.max-w-md{max-width:28rem}.max-w-xl{max-width:36rem}.shrink-0{flex-shrink:0}.flex-grow{flex-grow:1}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-3\.5{gap:.875rem}.gap-4{gap:1rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.overflow-hidden,.truncate{overflow:hidden}.truncate{text-overflow:ellipsis;white-space:nowrap}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-t{border-top-width:1px}.border-purple-100{--tw-border-opacity:1;border-color:rgb(243 232 255/var(--tw-border-opacity,1))}.border-purple-50{--tw-border-opacity:1;border-color:rgb(250 245 255/var(--tw-border-opacity,1))}.bg-cta-whatsapp{--tw-bg-opacity:1;background-color:rgb(37 211 102/var(--tw-bg-opacity,1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129/var(--tw-bg-opacity,1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255/var(--tw-bg-opacity,1))}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255/var(--tw-bg-opacity,1))}.bg-surface-canvas{--tw-bg-opacity:1;background-color:rgb(250 247 253/var(--tw-bg-opacity,1))}.bg-surface-dark{--tw-bg-opacity:1;background-color:rgb(38 18 61/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-cta-start{--tw-gradient-from:#7c3aed var(--tw-gradient-from-position);--tw-gradient-to:rgba(124,58,237,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.to-cta-end{--tw-gradient-to:#6d28d9 var(--tw-gradient-to-position)}.fill-current{fill:currentColor}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.pb-28{padding-bottom:7rem}.pb-\[max\(0\.75rem\2c env\(safe-area-inset-bottom\)\)\]{padding-bottom:max(.75rem,env(safe-area-inset-bottom))}.pt-2\.5{padding-top:.625rem}.pt-3{padding-top:.75rem}.text-center{text-align:center}.font-serif{font-family:Lora,Lora Fallback,Georgia,serif}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[13px\]{font-size:13px}.text-\[14px\]{font-size:14px}.text-\[15px\]{font-size:15px}.text-\[16px\]{font-size:16px}.text-\[17px\]{font-size:17px}.text-\[18px\]{font-size:18px}.text-\[20px\]{font-size:20px}.text-\[22px\]{font-size:22px}.text-\[24px\]{font-size:24px}.text-\[30px\]{font-size:30px}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-\[1\.15\]{line-height:1.15}.leading-\[1\.25\]{line-height:1.25}.leading-\[1\.2\]{line-height:1.2}.leading-\[1\.55\]{line-height:1.55}.leading-\[1\.5\]{line-height:1.5}.leading-none{line-height:1}.leading-normal{line-height:1.5}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.leading-tight{line-height:1.25}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.text-ink-light{--tw-text-opacity:1;color:rgb(122 111 135/var(--tw-text-opacity,1))}.text-ink-main{--tw-text-opacity:1;color:rgb(43 36 51/var(--tw-text-opacity,1))}.text-ink-muted{--tw-text-opacity:1;color:rgb(91 81 102/var(--tw-text-opacity,1))}.text-purple-100{--tw-text-opacity:1;color:rgb(243 232 255/var(--tw-text-opacity,1))}.text-purple-200{--tw-text-opacity:1;color:rgb(233 213 255/var(--tw-text-opacity,1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234/var(--tw-text-opacity,1))}.text-purple-700{--tw-text-opacity:1;color:rgb(126 34 206/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-card{--tw-shadow:0 8px 24px rgba(43,36,51,.05);--tw-shadow-colored:0 8px 24px var(--tw-shadow-color)}.shadow-card,.shadow-floating-bar{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-floating-bar{--tw-shadow:0 -4px 20px rgba(43,36,51,.08);--tw-shadow-colored:0 -4px 20px var(--tw-shadow-color)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.outline{outline-style:solid}.grayscale{--tw-grayscale:grayscale(100%)}.filter,.grayscale{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px)}.backdrop-blur-md,.backdrop-blur-sm{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-150,.transition-colors{transition-duration:.15s}.active\:bg-cta-whatsappHover:active{--tw-bg-opacity:1;background-color:rgb(32 186 89/var(--tw-bg-opacity,1))}.active\:bg-purple-50\/50:active{background-color:rgba(250,245,255,.5)}@media (min-width:640px){.sm\:h-28{height:7rem}.sm\:w-28{width:7rem}.sm\:whitespace-normal{white-space:normal}.sm\:p-5{padding:1.25rem}.sm\:p-6{padding:1.5rem}.sm\:p-7{padding:1.75rem}.sm\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}.sm\:pb-12{padding-bottom:3rem}.sm\:text-\[16px\]{font-size:16px}.sm\:text-\[20px\]{font-size:20px}.sm\:text-\[26px\]{font-size:26px}.sm\:text-\[28px\]{font-size:28px}.sm\:text-\[32px\]{font-size:32px}}
+  </style>
+
+  <style>
+    /* Fallback com métricas ajustadas para zerar CLS */
+    @font-face {
+      font-family: 'Jakarta Fallback';
+      src: local('Arial');
+      size-adjust: 104.32%;
+      ascent-override: 99.50%;
+      descent-override: 21.28%;
+      line-gap-override: 0%;
+    }
+    @font-face {
+      font-family: 'Lora Fallback';
+      src: local('Times New Roman');
+      size-adjust: 110.28%;
+      ascent-override: 91.22%;
+      descent-override: 24.84%;
+      line-gap-override: 0%;
+    }
+
+    /* Scroll Suave e Margens Seguras para Barra Fixa */
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 1rem;
+      scroll-padding-bottom: calc(5rem + env(safe-area-inset-bottom));
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Jakarta Fallback', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #FAF7FD;
+      color: #2B2433;
+    }
+
+    h1, h2, h3, .font-serif-brand {
+      font-family: 'Lora', 'Lora Fallback', Georgia, serif;
+    }
+
+    /* Selo Redondo Compacto (76px) */
+    .brand-stamp {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      border: 1.5px dashed #a855f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle, #ffffff 60%, #F4EFFC 100%);
+      box-shadow: 0 4px 16px rgba(124, 58, 237, 0.1);
+    }
+
+    /* Zona de Toque WCAG & Feedback Tátil de 120ms */
+    .btn-action, .btn-wa {
+      min-height: 3rem;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 120ms ease, filter 120ms ease;
+    }
+    .btn-action:active, .btn-wa:active {
+      transform: scale(0.97);
+      filter: brightness(0.92);
+    }
+    .btn-action:focus-visible, .btn-wa:focus-visible {
+      outline: 3px solid #2B2433;
+      outline-offset: 3px;
+    }
+
+    /* Foco acessível no card de marmita */
+    .dish-card {
+      transition: box-shadow 150ms ease, border-color 150ms ease;
+    }
+    .dish-card:focus-within {
+      box-shadow: 0 0 0 2px #7c3aed;
+    }
+
+    /* Otimização de renderização para seções abaixo do cardápio */
+    .lazy-section {
+      content-visibility: auto;
+      contain-intrinsic-size: auto 600px;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-surface-canvas text-ink-main flex flex-col items-center pb-28 sm:pb-12">
+
+  <!-- ================================================================= -->
+  <!-- CONFIGURAÇÃO DO WHATSAPP: CENTRALIZADA NO SCRIPT NO FIM DA PÁGINA -->
+  <!-- Basta alterar a variável 'WA_NUMBER' uma única vez no script!     -->
+  <!-- ================================================================= -->
+
+  <!-- Container Geral Mobile-First -->
+  <main class="w-full max-w-xl mx-auto px-4 py-3 sm:py-6 flex flex-col gap-6">
+
+    <!-- Top Bar Simples e Limpa -->
+    <div class="flex items-center justify-between text-[13px] font-semibold text-ink-main bg-white px-4 py-2.5 rounded-full border border-purple-100 shadow-sm">
+      <span class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+        Cozinha aberta hoje
+      </span>
+      <span class="text-ink-muted font-medium">
+        Almoço fresco até 14h
+      </span>
+    </div>
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: HERO / HEADER -->
+    <!-- =============================================================== -->
+    <header class="bg-white rounded-2xl p-5 sm:p-7 shadow-card border border-purple-100 flex flex-col gap-5">
+      
+      <!-- Topo do Hero: Selo Compacto (76px) + Apresentação -->
+      <div class="flex items-center gap-4">
+        <!-- 1º Coração da Página: Selo da Marca -->
+        <div class="brand-stamp shrink-0 text-center">
+          <span class="font-serif font-bold text-[13px] text-ink-main leading-tight">Delícias<br>Fit</span>
+          <span class="text-[12px] leading-none mt-1 block">💜</span>
+        </div>
+
+        <div>
+          <span class="inline-block text-[12px] font-bold text-purple-700 uppercase tracking-wider mb-0.5">
+            Comida de Verdade
+          </span>
+          <h1 class="font-serif text-[30px] sm:text-[32px] font-bold text-ink-main leading-[1.15]">
+            Aqui dentro tem saúde para você!
+          </h1>
+        </div>
+      </div>
+
+      <!-- Imagem de Comida Real (LCP Otimizada com Srcset e Preload) -->
+      <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-purple-50">
+        <img 
+          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=80" 
+          srcset="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=720&q=70 720w, https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=960&q=70 960w"
+          sizes="(min-width: 640px) 486px, calc(100vw - 74px)"
+          alt="Marmita Saudável Delícias Fit"
+          width="960"
+          height="600"
+          fetchpriority="high"
+          decoding="async"
+          class="w-full h-full object-cover"
+        >
+        <div class="absolute bottom-3 left-3 bg-white/95 backdrop-blur-sm text-ink-main text-[13px] font-semibold px-3 py-1 rounded-full shadow-sm">
+          Pronto em 3 min no micro-ondas
+        </div>
+      </div>
+
+      <!-- Texto de Apoio em 15-16px e Contraste Sólido -->
+      <p class="text-[15px] sm:text-[16px] text-ink-muted leading-[1.55] font-normal">
+        Refeições pensadas para o seu equilíbrio diário: ingredientes 100% naturais, tempero artesanal e porções certas para alimentar seus objetivos.
+      </p>
+
+      <!-- Botão CTA Principal do Hero -->
+      <div class="flex flex-col gap-2.5">
+        <a 
+          href="#cardapio" 
+          class="btn-action w-full min-h-12 bg-gradient-to-r from-cta-start to-cta-end text-white font-semibold text-[16px] py-3.5 px-6 rounded-full flex items-center justify-center gap-2 shadow-sm"
+        >
+          <span>Ver Cardápio de Hoje</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </a>
+      </div>
+
+    </header>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: HERO / HEADER -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: DIFERENCIAIS -->
+    <!-- =============================================================== -->
+    <section class="grid grid-cols-1 gap-2.5">
+
+      <div class="bg-white rounded-2xl p-3.5 border border-purple-100 shadow-card flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center shrink-0">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-[14px] text-ink-main leading-tight">100% Saudável (Sem conservantes)</h3>
+          <p class="text-[13px] text-ink-muted leading-normal mt-0.5">Tempero natural da casa e baixo teor de sódio.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-3.5 border border-purple-100 shadow-card flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center shrink-0">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-[14px] text-ink-main leading-tight">Pronto para Consumo (Livre de BPA)</h3>
+          <p class="text-[13px] text-ink-muted leading-normal mt-0.5">Embalagem própria e segura para micro-ondas.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl p-3.5 border border-purple-100 shadow-card flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-700 flex items-center justify-center shrink-0">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold text-[14px] text-ink-main leading-tight">Entrega Agendada</h3>
+          <p class="text-[13px] text-ink-muted leading-normal mt-0.5">Receba no horário certo para o seu almoço ou semana.</p>
+        </div>
+      </div>
+
+    </section>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: DIFERENCIAIS -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: CARDÁPIO (A MAIS IMPORTANTE) -->
+    <!-- =============================================================== -->
+    <!-- tabindex="-1" garante que leitores de tela acompanhem a navegação via âncora -->
+    <section id="cardapio" tabindex="-1" class="flex flex-col gap-4 outline-none">
+
+      <!-- Cabeçalho da Seção de Cardápio -->
+      <div class="px-1">
+        <span class="text-[12px] font-bold text-purple-700 uppercase tracking-wider block mb-1">
+          Feito no Dia
+        </span>
+        <h2 class="font-serif text-[24px] sm:text-[28px] font-bold text-ink-main leading-[1.2]">
+          Cardápio de Hoje
+        </h2>
+        <p class="text-[14px] text-ink-muted leading-[1.5] mt-1">
+          Clique no prato desejado para fazer o pedido direto pelo WhatsApp.
+        </p>
+      </div>
+
+      <!-- LISTA DE PRATOS EM LAYOUT HÍBRIDO (1 Grande + 2 Compactos) -->
+      <div class="flex flex-col gap-4">
+
+        <!-- =========================================================== -->
+        <!-- PRATO 1: DESTAQUE PRINCIPAL ("MAIS PEDIDO") -->
+        <!-- =========================================================== -->
+        <article class="dish-card bg-white rounded-2xl p-4 sm:p-5 border border-purple-150 shadow-card flex flex-col gap-3.5">
+          
+          <!-- Foto Larga com Proporção Estável 16/10 -->
+          <div class="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-purple-50">
+            <img 
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80" 
+              alt="Frango com Ervas e Purê de Mandioquinha"
+              width="900"
+              height="562"
+              loading="lazy"
+              class="w-full h-full object-cover"
+            >
+            <!-- 2º Coração da Página: Badge Destaque -->
+            <span class="absolute top-3 left-3 bg-white/95 backdrop-blur-sm text-ink-main text-[12px] font-bold px-3 py-1 rounded-full shadow-sm flex items-center gap-1">
+              <span>💜</span> Mais Pedido
+            </span>
+          </div>
+
+          <!-- Informações do Prato Destaque -->
+          <div class="flex flex-col gap-1.5">
+            <h3 class="font-serif text-[18px] sm:text-[20px] font-semibold text-ink-main leading-[1.25]">
+              Frango com Ervas & Purê de Mandioquinha
+            </h3>
+
+            <!-- Linha Nutricional Limpa -->
+            <p class="text-[13px] text-ink-muted font-medium">
+              <span class="font-bold text-ink-main">410 kcal</span> · <span class="font-semibold text-ink-main">42g proteína</span> · 380g
+            </p>
+
+            <!-- Descrição em 14px Legível -->
+            <p class="text-[14px] text-ink-muted leading-[1.5] mt-0.5">
+              Peito de frango marinado em azeite extravirgem e ervas finas, purê rústico de mandioquinha e legumes frescos salteados no vapor.
+            </p>
+          </div>
+
+          <!-- Preço em Destaque + Botão de Pedido com Fonte Única da Verdade -->
+          <div class="pt-3 border-t border-purple-50 flex items-center justify-between gap-3 mt-auto">
+            <div>
+              <span class="text-[11px] text-ink-light block font-semibold uppercase tracking-wide">Individual</span>
+              <span class="text-[24px] font-bold text-ink-main font-serif leading-none">R$ 26,90</span>
+            </div>
+
+            <a 
+              href="https://wa.me/5511999999999"
+              data-wa-dish="Frango com Ervas & Purê de Mandioquinha"
+              data-wa-price="26.90"
+              aria-label="Pedir Frango com Ervas e Purê de Mandioquinha pelo WhatsApp"
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="btn-action min-h-12 bg-gradient-to-r from-cta-start to-cta-end text-white text-[15px] font-semibold py-3 px-5 rounded-full flex items-center gap-2 shadow-sm shrink-0"
+            >
+              <!-- Ícone WhatsApp -->
+              <svg class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+              </svg>
+              <span class="btn-label">Pedir Prato</span>
+            </a>
+          </div>
+
+        </article>
+
+
+        <!-- =========================================================== -->
+        <!-- PRATO 2: CARD COMPACTO HORIZONTAL (~130px) -->
+        <!-- =========================================================== -->
+        <article class="dish-card bg-white rounded-2xl p-3.5 border border-purple-100 shadow-card flex gap-3.5 items-stretch active:bg-purple-50/50 transition-colors duration-150">
+          
+          <!-- Foto Quadrada 96x96px -->
+          <div class="w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-xl overflow-hidden bg-purple-50">
+            <img 
+              src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80" 
+              alt="Patinho Moído com Arroz Integral"
+              width="200"
+              height="200"
+              loading="lazy"
+              class="w-full h-full object-cover"
+            >
+          </div>
+
+          <!-- Lado Direito: Nome, Macros, Preço e Botão "Pedir" -->
+          <div class="flex flex-col justify-between flex-grow min-w-0">
+            <div>
+              <h3 class="font-serif text-[17px] font-semibold text-ink-main leading-[1.25] truncate sm:whitespace-normal">
+                Patinho Moído & Lentilha
+              </h3>
+
+              <!-- Linha Nutricional Direta -->
+              <p class="text-[13px] text-ink-muted mt-0.5">
+                <span class="font-bold text-ink-main">440 kcal</span> · 38g proteína · 400g
+              </p>
+
+              <!-- Descrição Resumida -->
+              <p class="text-[13px] text-ink-muted leading-tight line-clamp-1 mt-1">
+                Com arroz integral e cubos de abóbora assada com alecrim.
+              </p>
+            </div>
+
+            <!-- Linha Inferior com Preço e Botão Pedir (Min-Height 48px / min-h-12) -->
+            <div class="flex items-center justify-between gap-2 mt-2">
+              <span class="text-[20px] font-bold text-ink-main font-serif">R$ 28,90</span>
+
+              <a 
+                href="https://wa.me/5511999999999"
+                data-wa-dish="Patinho Moído & Arroz Integral com Lentilha"
+                data-wa-price="28.90"
+                aria-label="Pedir Patinho Moído e Arroz Integral pelo WhatsApp"
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="btn-action min-h-12 bg-gradient-to-r from-cta-start to-cta-end text-white text-[14px] font-semibold py-2.5 px-4 rounded-full flex items-center gap-1.5 shadow-sm shrink-0"
+              >
+                <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                </svg>
+                <span class="btn-label">Pedir</span>
+              </a>
+            </div>
+          </div>
+
+        </article>
+
+
+        <!-- =========================================================== -->
+        <!-- PRATO 3: CARD COMPACTO HORIZONTAL (~130px) -->
+        <!-- =========================================================== -->
+        <article class="dish-card bg-white rounded-2xl p-3.5 border border-purple-100 shadow-card flex gap-3.5 items-stretch active:bg-purple-50/50 transition-colors duration-150">
+          
+          <!-- Foto Quadrada 96x96px -->
+          <div class="w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-xl overflow-hidden bg-purple-50">
+            <img 
+              src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80" 
+              alt="Salmão ao Molho de Maracujá"
+              width="200"
+              height="200"
+              loading="lazy"
+              class="w-full h-full object-cover"
+            >
+          </div>
+
+          <!-- Lado Direito: Nome, Macros, Preço e Botão "Pedir" -->
+          <div class="flex flex-col justify-between flex-grow min-w-0">
+            <div>
+              <h3 class="font-serif text-[17px] font-semibold text-ink-main leading-[1.25] truncate sm:whitespace-normal">
+                Salmão ao Maracujá & Quinoa
+              </h3>
+
+              <!-- Linha Nutricional Direta -->
+              <p class="text-[13px] text-ink-muted mt-0.5">
+                <span class="font-bold text-ink-main">390 kcal</span> · Ômega 3 · 360g
+              </p>
+
+              <!-- Descrição Resumida -->
+              <p class="text-[13px] text-ink-muted leading-tight line-clamp-1 mt-1">
+                Filé grelhado, molho natural de maracujá e aspargos frescos.
+              </p>
+            </div>
+
+            <!-- Linha Inferior com Preço e Botão Pedir (Min-Height 48px / min-h-12) -->
+            <div class="flex items-center justify-between gap-2 mt-2">
+              <span class="text-[20px] font-bold text-ink-main font-serif">R$ 34,90</span>
+
+              <a 
+                href="https://wa.me/5511999999999"
+                data-wa-dish="Salmão ao Molho de Maracujá & Quinoa Real"
+                data-wa-price="34.90"
+                aria-label="Pedir Salmão ao Maracujá e Quinoa Real pelo WhatsApp"
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="btn-action min-h-12 bg-gradient-to-r from-cta-start to-cta-end text-white text-[14px] font-semibold py-2.5 px-4 rounded-full flex items-center gap-1.5 shadow-sm shrink-0"
+              >
+                <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+                </svg>
+                <span class="btn-label">Pedir</span>
+              </a>
+            </div>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: CARDÁPIO -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: COMO FUNCIONA -->
+    <!-- =============================================================== -->
+    <section class="lazy-section bg-white rounded-2xl p-5 sm:p-6 border border-purple-100 shadow-card">
+      <div class="mb-4">
+        <span class="text-[12px] font-bold text-purple-700 uppercase tracking-wider block">Passo a Passo</span>
+        <h2 class="font-serif text-[22px] font-bold text-ink-main leading-tight mt-0.5">Como Funciona</h2>
+      </div>
+
+      <div class="flex flex-col gap-4">
+        <!-- Passo 1 -->
+        <div class="flex items-start gap-3.5">
+          <div class="w-8 h-8 rounded-full bg-purple-100 text-purple-700 font-bold text-[14px] flex items-center justify-center shrink-0">
+            1
+          </div>
+          <div>
+            <h3 class="font-bold text-[15px] text-ink-main leading-snug">Escolha os pratos</h3>
+            <p class="text-[14px] text-ink-muted leading-relaxed mt-0.5">
+              Veja o cardápio acima e selecione suas opções preferidas do dia ou da semana.
+            </p>
+          </div>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="flex items-start gap-3.5">
+          <div class="w-8 h-8 rounded-full bg-purple-100 text-purple-700 font-bold text-[14px] flex items-center justify-center shrink-0">
+            2
+          </div>
+          <div>
+            <h3 class="font-bold text-[15px] text-ink-main leading-snug">Chame no WhatsApp</h3>
+            <p class="text-[14px] text-ink-muted leading-relaxed mt-0.5">
+              O botão já abre a conversa com o prato selecionado pronto para envio.
+            </p>
+          </div>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="flex items-start gap-3.5">
+          <div class="w-8 h-8 rounded-full bg-purple-100 text-purple-700 font-bold text-[14px] flex items-center justify-center shrink-0">
+            3
+          </div>
+          <div>
+            <h3 class="font-bold text-[15px] text-ink-main leading-snug">Receba no seu endereço</h3>
+            <p class="text-[14px] text-ink-muted leading-relaxed mt-0.5">
+              Entregamos quentinho para o almoço ou ultracongelado para estocar na semana.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: COMO FUNCIONA -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: AGRADECIMENTO (FECHAMENTO EMOCIONAL) -->
+    <!-- =============================================================== -->
+    <section class="lazy-section bg-surface-dark rounded-2xl p-6 text-white text-center shadow-card relative overflow-hidden">
+      <div class="max-w-md mx-auto flex flex-col items-center">
+        
+        <h2 class="font-serif text-[24px] sm:text-[26px] font-bold text-white leading-tight mb-2.5">
+          Muito obrigado pela confiança!
+        </h2>
+
+        <p class="text-purple-100 text-[15px] sm:text-[16px] leading-[1.55] font-normal mb-4">
+          Preparamos cada detalhe com carinho para alimentar suas metas diárias. Cuidar da sua saúde é a nossa maior satisfação.
+        </p>
+
+        <!-- 3º Coração da Página: Assinatura Final Discreta -->
+        <div class="text-[13px] font-medium text-purple-200">
+          Com afeto por Delícias Fit 💜
+        </div>
+
+      </div>
+    </section>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: AGRADECIMENTO (FECHAMENTO EMOCIONAL) -->
+    <!-- =============================================================== -->
+
+
+    <!-- =============================================================== -->
+    <!-- INÍCIO SEÇÃO: RODAPÉ -->
+    <!-- =============================================================== -->
+    <footer class="lazy-section bg-white rounded-2xl p-5 border border-purple-100 shadow-card text-center text-ink-muted flex flex-col gap-3.5">
+      
+      <div class="font-serif font-bold text-[16px] text-ink-main">
+        Delícias Fit
+      </div>
+
+      <!-- Informações em Texto Sólido e Legível -->
+      <div class="text-[13px] text-ink-muted leading-relaxed flex flex-col gap-1 border-y border-purple-50 py-3">
+        <p><strong class="text-ink-main">Horário:</strong> Seg. a Sex. das 08h às 18h | Sáb. das 08h às 13h</p>
+        <p><strong class="text-ink-main">Entregas:</strong> Consulte taxa e raio de entrega via WhatsApp.</p>
+      </div>
+
+      <p class="text-[12px] text-ink-light">
+        © 2026 Delícias Fit. Todos os direitos reservados.
+      </p>
+
+    </footer>
+    <!-- =============================================================== -->
+    <!-- FIM SEÇÃO: RODAPÉ -->
+    <!-- =============================================================== -->
+
+  </main>
+
+
+  <!-- ================================================================= -->
+  <!-- BARRA FIXA INFERIOR DE PEDIDO MOBILE (ALTA CONVERSÃO)             -->
+  <!-- ================================================================= -->
+  <div class="fixed bottom-0 inset-x-0 z-50 bg-white/95 backdrop-blur-md border-t border-purple-150 px-4 pt-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-floating-bar flex justify-center">
+    <div class="w-full max-w-xl flex items-center justify-between gap-3">
+      
+      <!-- Texto Resumo da Oferta -->
+      <div class="flex flex-col">
+        <span class="text-[11px] font-bold uppercase tracking-wider text-purple-700">Cardápio Fresco</span>
+        <span class="text-[14px] font-bold text-ink-main leading-tight">Faça seu pedido</span>
+      </div>
+
+      <!-- Botão da Barra Fixa com Min-Height 48px (min-h-12) -->
+      <a 
+        id="btn-fixed-wa"
+        href="https://wa.me/5511999999999" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="Pedir pelo WhatsApp"
+        class="btn-wa min-h-12 bg-cta-whatsapp active:bg-cta-whatsappHover text-white text-[15px] font-bold py-3 px-5 rounded-full flex items-center gap-2 shadow-sm shrink-0"
+      >
+        <svg class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+        </svg>
+        <span class="btn-label">Pedir no WhatsApp</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- ================================================================= -->
+  <!-- SCRIPT CENTRALIZADO: GERADOR SEGURO DE LINKS DO WHATSAPP          -->
+  <!-- ================================================================= -->
+  <script>
+    // 1. ÚNICO LUGAR PARA CONFIGURAR O NÚMERO (Formato: 55 + DDD + 9 dígitos)
+    const WA_NUMBER = '5511999999999';
+
+    // 2. Formatador BRL seguro e normalização de espaços não-quebráveis (\u00a0)
+    const brl = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' });
+    const normalizeSpaces = s => s.replace(/\u00a0/g, ' ');
+
+    // 3. Montador com encodeURIComponent nativo (UTF-8 perfeito sem erros de caracteres)
+    const waLink = lines =>
+      `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`;
+
+    // 4. Configuração dinâmica dos botões de cada marmita
+    document.querySelectorAll('[data-wa-dish]').forEach(a => {
+      const { waDish, waPrice } = a.dataset;
+      a.href = waLink([
+        'Olá! Gostaria de pedir:',
+        '',
+        `*${waDish}*`,
+        `Valor: ${normalizeSpaces(brl.format(Number(waPrice)))}`,
+        '',
+        'Pode confirmar a disponibilidade de hoje? 💜'
+      ]);
+
+      // Prevenção de duplo toque e feedback instantâneo ao usuário
+      a.addEventListener('click', () => {
+        const label = a.querySelector('.btn-label');
+        if (label) {
+          const original = label.textContent;
+          label.textContent = 'Abrindo WhatsApp...';
+          setTimeout(() => { label.textContent = original; }, 2500);
+        }
+      });
+    });
+
+    // 5. Configuração dinâmica do botão da barra fixa inferior
+    const fixedBtn = document.getElementById('btn-fixed-wa');
+    if (fixedBtn) {
+      fixedBtn.href = waLink([
+        'Olá! Gostaria de fazer um pedido na Delícias Fit.',
+        '',
+        'Pode me enviar o cardápio e disponibilidade para hoje? 💜'
+      ]);
+
+      fixedBtn.addEventListener('click', () => {
+        const label = fixedBtn.querySelector('.btn-label');
+        if (label) {
+          const original = label.textContent;
+          label.textContent = 'Abrindo...';
+          setTimeout(() => { label.textContent = original; }, 2500);
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
